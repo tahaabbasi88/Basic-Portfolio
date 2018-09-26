@@ -39,7 +39,7 @@ li a:hover:not(.active) {
 
 
 body {
-    background-image: url("assets/images/gravel.png");
+    background-image: url("../images/grey-terrazzo.png");
     background-repeat: repeat;
     margin: 0 auto;
     height: 100%;
