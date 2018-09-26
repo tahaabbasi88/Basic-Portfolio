@@ -2,26 +2,50 @@
 <html lang="en">
 
 <head>
-    <title>Contact</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
+
 <body>
-    <header>
-        <div class="wrapper">
-            <div class="yourname">
-                <h1 id="tahaabbasi">Taha Abbasi</h1>
-                <div class="header-right">
-                    <a href="contact.html">Contact</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="index.html">About</a>
+    <div class="wrapper">
+        <nav class="header-index">
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="index.html">About</a></li>
+                <h2 class="myname">Taha Abbasi</h2>
+
+            </ul>
+        </nav>
+        <div class="container-contact">
+            <div class="content-contact">
+                <div class="container-heading">
+                    <h2>Contact</h2>
+                    <hr id="fname-contact">
                 </div>
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+
             </div>
         </div>
-    </header>
-    <footer>
-        <p class="footertext">Copyright ©</p>
+    </div>
+
+
+    <footer id="index-foot">
+        <p>Copyright ©</p>
     </footer>
+
 </body>
+
 
 </html>
