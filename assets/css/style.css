@@ -48,6 +48,10 @@ body {
 
 }
 
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 .header-index ul h2.myname {
     float: left;
     color: white;
